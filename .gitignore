@@ -1,0 +1,5 @@
+# Ignorar archivos salvo scripts SQL y esta configuracion
+*
+!*/
+!*.sql
+!.gitignore
