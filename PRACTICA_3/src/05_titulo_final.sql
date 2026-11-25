@@ -1,5 +1,4 @@
--- EJERCICIO 5: Usar el titulo original, el traducido o Sin titulo.
--- COALESCE devuelve el primer valor que no sea NULL.
+-- Ejercicio 5
 SELECT production_countries AS pais_produccion,
        original_language AS idioma_original, title AS titulo,
        COALESCE(original_title, title, 'Sin título') AS NombreFinal

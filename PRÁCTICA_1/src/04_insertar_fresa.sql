@@ -1,6 +1,5 @@
+-- Ejercicio 4
 ﻿-- EJERCICIO 4: Registrar a Fresa.
--- NULL indica que se desconoce la fecha de nacimiento.
--- Este ejercicio aparece repetido en el PowerPoint; se inserta una sola vez.
 INSERT INTO ParaiZooHuesped (
     id, animal, nombre, sexo, fecha_nacimiento, especie,
     fecha_incorporacion, comida_diaria_kg, jaula, peso_llegada_kg

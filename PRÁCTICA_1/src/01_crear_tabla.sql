@@ -1,5 +1,5 @@
+-- Ejercicio 1
 ﻿-- EJERCICIO 1: Crear la tabla. Ejecutar primero este archivo.
--- Todos los pesos se expresan en kilogramos.
 CREATE TABLE ParaiZooHuesped (
     id INT PRIMARY KEY,
     animal VARCHAR(50),

@@ -1,6 +1,5 @@
--- EJERCICIO 1: Peliculas estrenadas cuyos ingresos no superaron el presupuesto.
--- Base de datos para todos los ejercicios: BBDD/bbdd/moviebig.db (SQLite).
--- El enunciado llama beneficios al campo revenue (ingresos, no beneficio neto).
+-- Ejercicio 1
+-- Se interpreta beneficios como ingresos (revenue), segun el enunciado.
 SELECT title AS nombre, revenue AS beneficios, budget AS presupuesto
 FROM movies
 WHERE status = 'Released'

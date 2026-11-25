@@ -1,10 +1,6 @@
--- EJERCICIO 3: Estrenos japoneses entre las 22:00 y las 05:00, inclusive.
--- LIMITACION: la base proporcionada solo guarda YYYY-MM-DD en release_date
--- y no tiene una columna de hora. No se puede determinar que estrenos
--- fueron nocturnos. Esta consulta devuelve 0 filas con los datos actuales.
--- Se requiere una fecha con hora real (YYYY-MM-DD HH:MM:SS).
--- LENGTH >= 19 evita que SQLite interprete una fecha sin hora como 00:00.
--- El intervalo cruza medianoche, por lo que se utiliza OR.
+-- Ejercicio 3
+-- Faltan las horas de estreno en esta base; no se pueden identificar los estrenos nocturnos.
+-- La consulta necesita fechas con hora y devuelve 0 filas con los datos actuales.
 SELECT id, title AS titulo, popularity AS popularidad,
        vote_average AS promedio_votacion,
        DATE(release_date) AS fecha_estreno,

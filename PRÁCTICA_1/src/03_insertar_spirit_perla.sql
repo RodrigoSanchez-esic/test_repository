@@ -1,6 +1,5 @@
+-- Ejercicio 3
 ﻿-- EJERCICIO 3: Registrar a Spirit y Perla.
--- Los pavos son omnivoros, aunque Perla reciba una dieta de maiz.
--- 500 gramos = 0.500 kg. Se conserva el peso de 42 kg del enunciado.
 INSERT INTO ParaiZooHuesped (
     id, animal, nombre, sexo, fecha_nacimiento, especie,
     fecha_incorporacion, comida_diaria_kg, jaula, peso_llegada_kg

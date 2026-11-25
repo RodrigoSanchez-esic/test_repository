@@ -1,5 +1,5 @@
+-- Ejercicio 5
 ﻿-- EJERCICIO 5: Registrar a Nilo.
--- NULL indica que se desconoce la fecha de nacimiento.
 INSERT INTO ParaiZooHuesped (
     id, animal, nombre, sexo, fecha_nacimiento, especie,
     fecha_incorporacion, comida_diaria_kg, jaula, peso_llegada_kg

@@ -1,6 +1,5 @@
+-- Ejercicio 2
 ﻿-- EJERCICIO 2: Registrar a Parches.
--- Nacio el 20/09/2017: cumple dos anos siete dias despues del 13/09/2019.
--- 250 gramos = 0.250 kg.
 INSERT INTO ParaiZooHuesped (
     id, animal, nombre, sexo, fecha_nacimiento, especie,
     fecha_incorporacion, comida_diaria_kg, jaula, peso_llegada_kg

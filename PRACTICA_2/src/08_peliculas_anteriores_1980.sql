@@ -1,6 +1,4 @@
--- EJERCICIO 8: Peliculas estrenadas antes del 1 de enero de 1980.
--- release_date esta almacenada como texto ISO: YYYY-MM-DD.
--- Se excluyen fechas vacias, que no representan un estreno conocido.
+-- Ejercicio 8
 SELECT title AS nombre, vote_average AS promedio_votacion,
        release_date AS fecha_estreno
 FROM movies

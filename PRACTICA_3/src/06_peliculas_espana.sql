@@ -1,5 +1,5 @@
--- EJERCICIO 6: Peliculas relacionadas con Espana por pais o productora.
--- En esta base de datos se utiliza el nombre en ingles: Spain.
+-- Ejercicio 6
+-- Espana aparece como Spain en esta base.
 SELECT title AS titulo, production_countries AS pais_produccion,
        original_language AS idioma_original, homepage AS pagina_web,
        vote_average AS promedio_votacion

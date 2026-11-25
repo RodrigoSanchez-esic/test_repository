@@ -1,5 +1,4 @@
--- EJERCICIO 7: Popularidad superior a 100 y alien en el resumen.
--- Se incluyen coincidencias en mayusculas y minusculas.
+-- Ejercicio 7
 SELECT title AS nombre, popularity AS popularidad,
        release_date AS fecha_estreno, vote_average AS promedio_votacion
 FROM movies
